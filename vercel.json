@@ -2,13 +2,10 @@
   "buildCommand": "npm ci --prefix frontend && npm run build --prefix frontend",
   "outputDirectory": "frontend/dist",
   "functions": {
-    "api/index.py": {
-      "includeFiles": [
-        "data/**",
-        "backend/**"
-      ]
-    }
-  },
+  "api/index.py": {
+    "includeFiles": "{data,backend}/**"
+  }
+},
   "rewrites": [
     {
       "source": "/api/(.*)",
