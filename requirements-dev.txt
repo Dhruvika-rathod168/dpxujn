@@ -1,0 +1,6 @@
+-r requirements.txt
+pyarrow>=15.0.0
+pytest
+pytest-asyncio
+httpx
+playwright
