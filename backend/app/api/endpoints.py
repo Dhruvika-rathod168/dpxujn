@@ -11,7 +11,7 @@ Endpoints:
 
 import logging
 from datetime import datetime, date, timedelta
-from typing import Optional, List, Dict, Any, Literal
+from typing import Optional, List, Dict, Any, Literal, Tuple
 from zoneinfo import ZoneInfo
 
 import numpy as np
