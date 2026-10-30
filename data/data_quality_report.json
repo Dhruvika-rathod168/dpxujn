@@ -1,0 +1,58 @@
+{
+  "generatedAt": "2026-10-29T13:17:35Z",
+  "actuals_FUELHH": {
+    "rawCount": 1584,
+    "validCount": 1584,
+    "duplicateRowsRemoved": 0,
+    "schemaValidationErrors": 0,
+    "nullValuesFound": 0,
+    "negativeGenerationValues": 0,
+    "january2026PeriodsExpected": 1488,
+    "january2026PeriodsPresent": 1488,
+    "januaryCoveragePercentage": 100.0,
+    "missingPeriodsCount": 0,
+    "missingPeriods": [],
+    "minDate": "2025-12-31",
+    "maxDate": "2026-02-01",
+    "minGenerationMW": 1695.0,
+    "maxGenerationMW": 17805.0,
+    "meanGenerationMW": 11417.74
+  },
+  "forecasts_WINDFOR": {
+    "rawCount": 22776,
+    "validCount": 22776,
+    "duplicateRowsRemoved": 0,
+    "schemaValidationErrors": 0,
+    "nullValuesFound": 0,
+    "negativeGenerationValues": 0,
+    "distinctPublishTimes": 312,
+    "minPublishTime": "2025-12-25T02:30:00Z",
+    "maxPublishTime": "2026-02-01T22:30:00Z",
+    "minStartTime": "2025-12-24T21:00:00Z",
+    "maxStartTime": "2026-02-03T21:00:00Z",
+    "januaryDistinctTargetIntervalsCovered": 744,
+    "januaryDistinctTargetIntervalsExpected": 1488,
+    "januaryTargetCoveragePercentage": 50.0,
+    "minGenerationMW": 1981.0,
+    "maxGenerationMW": 21353.0,
+    "meanGenerationMW": 12341.64
+  },
+  "filesGenerated": {
+    "fuelhhParquet": {
+      "path": "data/fuelhh_jan2026.parquet",
+      "sizeBytes": 38918
+    },
+    "fuelhhJson": {
+      "path": "data/fuelhh_jan2026.json",
+      "sizeBytes": 355483
+    },
+    "windforParquet": {
+      "path": "data/windfor_jan2026.parquet",
+      "sizeBytes": 109486
+    },
+    "windforJson": {
+      "path": "data/windfor_jan2026.json",
+      "sizeBytes": 3202577
+    }
+  }
+}

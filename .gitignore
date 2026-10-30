@@ -1,0 +1,49 @@
+# Python
+.venv/
+env/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Node & Frontend
+node_modules/
+frontend/dist/
+frontend/.next/
+frontend/build/
+.vite/
+.npm
+.yarn/
+*.log
+
+# Environment variables
+.env
+.env.*
+.env.local
+.env.*.local
+!.env.example
+
+# IDE & Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Database / SQLite caches (keep directory structure via .gitkeep)
+*.sqlite3
+*.db
+!data/.gitkeep
+
+# Local screenshots
+docs/screenshots/

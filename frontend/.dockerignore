@@ -1,0 +1,13 @@
+.venv
+node_modules
+__pycache__
+.pytest_cache
+dist
+build
+.git
+.env
+.env.*
+*.log
+.idea
+.vscode
+docs/screenshots
